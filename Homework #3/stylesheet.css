@@ -1,0 +1,118 @@
+/*Обнуляющий стиль*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*Обнуляющий стиль*/
+
+#container{
+    height: 20vh;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#create, #update{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #999;
+    border: 1px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+    top: -100px;
+    z-index: 2;
+}
+
+#create:hover{
+    background: lightblue;
+}
+
+#update{
+    padding: 0;
+}
+
+#rename{
+    padding: 5px 0;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#rename:hover{
+    background-color: lightblue;
+}
+
+#rename:focus{
+    outline: none;
+}
+
+#delete{
+    padding: 5px 0;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#delete:hover{
+    background-color: lightblue;
+}
+
+#delete:focus{
+    outline: none;
+}
+
+.file{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 3px 3px #999;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightblue;
+}
