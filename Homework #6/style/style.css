@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 50px;
+    left: 0;
+    transition: all 2s cubic-bezier(0, 0, 1, 1);
+}
+
+.circle-blue {
+    background-color: blue;
+}
+.circle-red {
+    background-color: red;
+}
+.circle-green {
+    background-color: green;
+}
+
+.like-img{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    height: 300px;
+    width: 200px;
+    display: none;
+    transition-delay: 4s;
+}
