@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+h2{
+
+}
+
+.wrapper{
+    margin: 20px;
+    height: 50%;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.wrapper_btn{
+    display: flex;
+
+}
+
+
+.delete_btn{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #999;
+    border: 1px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+
+
+}
+
+.sort_btn{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #999;
+    border: 1px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.input_wrapper{
+    border: 1px solid #000;
+    border-top: 0;
+}
+
+.item_text_input{
+    width: 100%;
+}
+
+.item_rich_text_input{
+    width: 100%;
+}
+
+.item_action_text_input{
+    width: 100%;
+}
+
+#root{
+    display: block;
+    padding: 10px;
+}
+
