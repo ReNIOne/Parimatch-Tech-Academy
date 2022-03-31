@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: linear-gradient(to right, rgba(27, 140, 255, 0.78), rgba(27, 113, 199, 0.81));
+}
+
+
